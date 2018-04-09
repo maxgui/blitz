@@ -37,3 +37,25 @@
 .btn-danger {
   margin-left: 50px;
 }
+
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // height: 70vh;
+  background-color: white;
+}
+
+.info {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  padding-right: 200px;
+  padding-left: 200px;
+  border-right: solid 2px $super-green;
+  border-radius: 2px;
+  height: 30vh;
+}
+
+.info:last-child {
+  border-right: none;
+}
